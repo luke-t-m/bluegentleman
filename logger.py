@@ -28,6 +28,7 @@ class Logger():
 
 logger = Logger()
 
+
 def log(msg, bold=False, colour=None):
     caller = sys._getframe().f_back.f_code.co_name
     logger.log(msg, bold, colour, caller)
