@@ -1,6 +1,0 @@
-pell_frag = "Fragmentation Pellets"
-pell_ince = "Incendiary Pellets"
-pell_hard = "Hardener Pellets"
-pell_he = "High Explosive Pellets"
-pell_emp = "EMP Pellets"
-pellets = [pell_frag, pell_ince, pell_he, pell_emp]
