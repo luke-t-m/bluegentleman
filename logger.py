@@ -7,7 +7,7 @@ class Logger():
         self.unsilence()
         self.tag_map = defaultdict(lambda: self.tag_format(""))
 
-    def tag_format(tag):
+    def tag_format(self, tag):
         return tag.upper().center(6)
 
     def silence(self):
