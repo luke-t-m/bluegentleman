@@ -45,6 +45,6 @@ def make_backup(og_path, backup_limit):
             break
         baka_path = Path(og_path + f".baka{i}")
     else:
-        log("Too many existing backups. Please delete.")
-        exit()
+        log("Backup not made. Too many existing backups. Please raise limit or delete.")
+        return
     log(f"Backup made at {baka_path}")
