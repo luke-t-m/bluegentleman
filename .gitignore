@@ -1,0 +1,3 @@
+__pycache__/
+*.blueprint
+config/ftd_dir_path
